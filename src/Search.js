@@ -2,7 +2,7 @@ import React from 'react'
 import { useGlobalContext } from './context';
 
 const Search = () => {
-  const { isError, query, setQuery  } = useGlobalContext();
+  const { isError, query, setQuery } = useGlobalContext();
   return <>
     <section className="search-section">
       <h2>Search Your Favourite Movie</h2>
